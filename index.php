@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '430375383:AAF6kautTfn37w_sHTPa5MqsiZ52xAkuTZA');
+define('BOT_TOKEN', '339691426:AAGzT8G9YMPFj4JprmUne1zvN6avoy2l2bI');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -348,7 +348,7 @@ function callbackMessage($callback){
 }
 
 
-define('WEBHOOK_URL', 'https://dry-shelf-89201.herokuapp.com');
+define('WEBHOOK_URL', 'localhost');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
